@@ -1,6 +1,7 @@
 import { BotaoWhatsApp } from './ui/BotaoWhatsApp'
 import { Revelar } from './ui/Revelar'
 import { TituloSecao } from './ui/TituloSecao'
+import { Video } from './ui/Video'
 
 const passos = [
   {
@@ -50,6 +51,15 @@ export function ComoFunciona() {
             </li>
           ))}
         </ol>
+
+        <Revelar className="mx-auto mt-14 max-w-4xl">
+          <Video
+            arquivo="entrega-oculos"
+            foto="entrega-oculos-poster.webp"
+            proporcao="16 / 9"
+            alt="Senhor de cabelos brancos, no sofá de casa, usando o óculos novo. Ele lê o jornal, olha para a janela e sorri."
+          />
+        </Revelar>
 
         <Revelar className="mt-12">
           <BotaoWhatsApp texto="Chamar no WhatsApp" />

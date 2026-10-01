@@ -1,6 +1,6 @@
-import { Foto } from './ui/Foto'
 import { Revelar } from './ui/Revelar'
 import { TituloSecao } from './ui/TituloSecao'
+import { Video } from './ui/Video'
 
 /** Seção 5. A maleta de armações que vai até a casa da pessoa. */
 export function Maleta() {
@@ -23,10 +23,11 @@ export function Maleta() {
         </Revelar>
 
         <Revelar atraso={0.1}>
-          <Foto
-            arquivo="maleta-armacoes.webp"
+          <Video
+            arquivo="maleta-armacoes"
+            foto="maleta-armacoes.webp"
             proporcao="4 / 3"
-            alt="Maleta aberta sobre uma mesa de jantar de madeira, com dezenas de armações de óculos organizadas em fileiras, ao lado de uma xícara de café e da luz de uma janela."
+            alt="Maleta de armações aberta sobre uma mesa de jantar de madeira, com armações de óculos organizadas em fileiras, ao lado de uma xícara de café."
           />
         </Revelar>
       </div>
