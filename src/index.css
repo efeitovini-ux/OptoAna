@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white font-sans text-base leading-relaxed text-navy antialiased;
+  }
+
+  :focus-visible {
+    outline: 3px solid #146b88;
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer components {
+  /* Campo ainda não informado pela cliente. Precisa ser visto antes de publicar. */
+  .preencher {
+    @apply rounded px-1.5 py-0.5 font-semibold text-navy;
+    background-color: #fff3b0;
+    box-shadow: inset 0 0 0 1px #e9d36a;
+  }
+
+  /* Placeholder de arquivo que ainda não chegou (logo, fotos). */
+  .arquivo-pendente {
+    @apply flex items-center justify-center rounded-2xl bg-[#e3e8ec] p-4 text-center text-navy;
+  }
+}
