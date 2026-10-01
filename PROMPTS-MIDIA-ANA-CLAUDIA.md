@@ -205,6 +205,11 @@ só a fotografia.
 > fotos. Quando os vídeos estiverem prontos, me avise que eu crio o espaço
 > com botão de pausa.
 >
+> **Óculos nunca entra nem sai do rosto em cena.** O Veo deforma a armação
+> nesse movimento. Em todos os prompts o óculos já começa no lugar e fica
+> parado. Se mesmo assim a armação "derreter", use *Frames to Video* com uma
+> foto do Gemini como primeiro quadro.
+>
 > **Depois de gerar:** baixe em 1080p e salve em `public/video/` com o nome
 > indicado. A conversão para MP4/WebM leve eu faço na hora de colocar no site.
 
@@ -222,6 +227,8 @@ short grey hair, light knitted cardigan, sits in an armchair looking straight
 ahead through an optometry trial frame, calm and attentive. In the foreground,
 out of focus and seen from behind, a woman in everyday clothes (no lab coat)
 gently holds the trial frame in front of her face; her face is never visible.
+The trial frame is already in place from the first frame and stays perfectly
+still and rigid the whole time; it is never moved, put on or taken off.
 
 Camera: locked-off tripod shot, no camera movement. The shot starts softly out
 of focus and slowly racks into sharp focus on the elderly woman's eyes over
@@ -310,27 +317,60 @@ No shop counter, no store setting, no metal case.
 
 **16:9** · `entrega-oculos.mp4`
 
+O óculos **já começa no rosto**. O Veo deforma a armação quando mostra o
+óculos sendo colocado, então a cena é o momento depois da entrega: ele
+enxergando bem, em casa.
+
+**Para sair mais estável**, use *Frames to Video*. Primeiro gere no Gemini a
+foto de partida (prompt logo abaixo, 16:9) e use como primeiro quadro.
+
+Foto de partida (Gemini, **16:9**):
+
 ```
-Horizontal 16:9, 8 seconds, photorealistic documentary style.
+Fotografia documental horizontal 16:9 de um senhor de cerca de 75 anos,
+cabelos brancos, camisa de botão clara, sentado no sofá da sala de casa,
+usando um óculos novo de armação fina de metal prateado, já bem ajustado no
+rosto. Ele segura um jornal dobrado no colo e olha para a frente, tranquilo.
+Ninguém mais aparece no quadro, nenhuma mão perto do rosto dele.
 
-Close-up inside a home living room. The hands of a professional in everyday
-clothing (no lab coat, her face never shown) carefully place a new pair of
-eyeglasses on an elderly man's face and gently adjust the temple behind his
-ear. He is seen in soft-focus profile; the hands and glasses are sharp in the
-center of the frame. At the end he looks up, blinks, and gives a small,
-genuine smile.
+Ao fundo, desfocada, a sala de uma casa brasileira comum com janela
+iluminada, cortina leve e uma planta. Luz natural quente e suave vinda da
+janela. Paleta clara: branco, madeira clara e azul acinzentado bem suave.
+Lente 85mm, f/2, foco nítido nos olhos e no óculos.
 
-Camera: locked-off, slight slow push-in, very steady.
+Não inclua nenhum texto, letra, número, logotipo ou marca d'água na imagem.
+Não mostre cartela de cores, amostras de cor ou qualquer elemento gráfico:
+só a fotografia. Nada de ambiente clínico.
+```
 
-Lighting: warm, soft natural window light.
-Background: softly blurred living room with a window.
+Prompt do vídeo (Flow · Veo 3):
+
+```
+Horizontal 16:9, 8 seconds, photorealistic live-action documentary footage.
+
+Subject: an elderly Brazilian man around 75, white hair, light button-up
+shirt, sitting on the sofa in his living room. He is already wearing new
+thin silver metal eyeglasses from the very first frame to the last. The
+glasses stay on his face the entire time and never move: nobody touches
+them, he does not touch them, they are never put on or taken off.
+
+Action: he unfolds a newspaper on his lap, looks down and reads for a
+moment, then looks up toward the window, blinks, and gives a small, genuine
+smile, as if seeing clearly again. Slow, calm, natural movements only.
+
+Camera: locked-off tripod shot at eye level, medium close-up, with a very
+slight slow push-in. Steady, no shake.
+
+Lighting: warm, soft natural daylight from a window on the left.
+Background: softly blurred Brazilian living room, sheer curtain, a plant.
 Colors: airy and light. White walls, pale natural wood, soft misty-blue accents.
-85mm lens, shallow depth of field.
+85mm lens, shallow depth of field, natural skin texture.
 
-Audio: quiet room ambience only, no music, no speech.
+Audio: quiet room ambience and soft paper rustle, no music, no speech.
 
 Pure live-action footage only. No color swatches, no palette cards, no
-graphics, overlays, captions, text, letters, numbers, logos or watermarks. No clinical setting.
+graphics, overlays, captions, text, letters, numbers, logos or watermarks.
+No clinical setting, no lab coat, no hands near his face.
 ```
 
 ---
