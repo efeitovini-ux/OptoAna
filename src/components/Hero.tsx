@@ -68,7 +68,7 @@ export function Hero() {
         >
           <Foto
             arquivo="hero-exame-casa.webp"
-            proporcao="4 / 5"
+            proporcao="3 / 4"
             prioridade
             alt="Optometrista sentada ao lado de uma senhora de cabelos grisalhos, na poltrona da sala de casa, segurando uma armação de prova diante do rosto dela. Luz natural entra pela janela."
           />

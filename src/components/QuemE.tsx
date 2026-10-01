@@ -12,7 +12,7 @@ export function QuemE() {
         <Revelar className="mx-auto w-full max-w-sm lg:max-w-none">
           <Foto
             arquivo="ana-claudia-retrato.webp"
-            proporcao="4 / 5"
+            proporcao="3 / 4"
             alt="Retrato da optometrista Ana Cláudia sorrindo, em uma sala com luz de janela."
           />
         </Revelar>

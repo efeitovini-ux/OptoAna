@@ -41,9 +41,9 @@ sozinho.
 
 | Arquivo | Proporção | Onde |
 |---|---|---|
-| `hero-exame-casa.webp` | 4:5 | Hero |
-| `maleta-armacoes.webp` | 3:2 | A maleta |
-| `ana-claudia-retrato.webp` | 4:5 | Quem é a Ana Cláudia (foto real, não gerada) |
+| `hero-exame-casa.webp` | 3:4 | Hero |
+| `maleta-armacoes.webp` | 4:3 | A maleta |
+| `ana-claudia-retrato.webp` | 3:4 | Quem é a Ana Cláudia (foto real, não gerada) |
 | `og-ana-claudia.jpg` | 1200×630, JPG | Card do link no WhatsApp |
 
 Os prompts de geração estão em `PROMPTS-MIDIA-ANA-CLAUDIA.md`.

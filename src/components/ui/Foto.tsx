@@ -4,7 +4,7 @@ type Props = {
   /** Nome do arquivo esperado em public/img/. */
   arquivo: string
   alt: string
-  /** Proporção da foto, ex.: "4 / 5" ou "3 / 2". */
+  /** Proporção da foto, ex.: "3 / 4" ou "4 / 3" (as do Gemini). */
   proporcao: string
   className?: string
   imgClassName?: string

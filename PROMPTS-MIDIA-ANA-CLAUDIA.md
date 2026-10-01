@@ -36,16 +36,19 @@ sempre o cliente.
 
 # FOTOS · Gemini
 
-> No Gemini, escolha a proporção indicada antes de gerar (ou peça no próprio
-> prompt). Se a imagem vier com algum texto, letra ou logo, descarte e gere
-> de novo. Não tente apagar depois.
+> **No Gemini:** antes de enviar, abra **Proporção** e escolha a indicada em
+> cada prompt (só existem 1:1, 9:16, 3:4, 4:3 e 16:9, e o site já usa essas
+> medidas). **Não escolha nenhum estilo** da galeria (Retrato suave,
+> Cinematográfico etc.): eles mudam a luz e a cor. Use o modelo **Pro**.
+> Se a imagem vier com algum texto, letra ou logo, descarte e gere de novo.
+> Não tente apagar depois.
 
 ## 1 · Hero: o exame acontecendo na sala
 
-**4:5** · `hero-exame-casa.webp` · primeira coisa que aparece no site
+**3:4** · `hero-exame-casa.webp` · primeira coisa que aparece no site
 
 ```
-Fotografia editorial, proporção vertical 4:5, de um exame de vista acontecendo
+Fotografia editorial, proporção vertical 3:4, de um exame de vista acontecendo
 dentro de uma casa brasileira. Uma senhora de cerca de 70 anos, cabelos
 grisalhos curtos, blusa de tricô clara, está sentada numa poltrona da sala de
 estar, olhando em frente através de uma armação de prova de optometria, com
@@ -69,10 +72,10 @@ Nada de ambiente clínico, jaleco ou equipamento grande de mesa.
 
 ## 2 · A maleta de armações aberta na mesa
 
-**3:2** · `maleta-armacoes.webp` · seção "A maleta"
+**4:3** · `maleta-armacoes.webp` · seção "A maleta"
 
 ```
-Fotografia vista de cima, levemente inclinada, proporção horizontal 3:2, de
+Fotografia vista de cima, levemente inclinada, proporção horizontal 4:3, de
 uma maleta de armações de óculos aberta sobre uma mesa de jantar de madeira
 clara, dentro de uma casa. Dentro da maleta, cerca de vinte armações
 organizadas em fileiras ordenadas, em acetato tartaruga, acetato preto, metal
@@ -115,12 +118,13 @@ Depois de gerar, recorte em 1200 × 630 mantendo a maleta à direita.
 
 ## 4 · Retrato da Ana Cláudia: não gerar
 
-`ana-claudia-retrato.webp` · **4:5** · seção "Quem é a Ana Cláudia"
+`ana-claudia-retrato.webp` · **3:4** · seção "Quem é a Ana Cláudia"
 
 Esta foto precisa ser **real**. É o rosto dela que cria confiança, e uma
 imagem gerada no lugar seria enganosa.
 
-Se ela não tiver uma boa, peça uma nova assim: celular na **vertical**, perto
+Se ela não tiver uma boa, peça uma nova assim: celular na **vertical** (a câmera
+já tira em 3:4, sem recorte), perto
 de uma janela, sem flash, fundo de sala (não parede branca), sem jaleco,
 sorriso natural, enquadramento da cintura para cima. Converta para WebP e
 salve com o nome acima.
@@ -133,10 +137,10 @@ Gere só se for usar no Instagram ou se quiser que eu inclua no site depois.
 
 ## 5 · Criança à vontade em casa
 
-**3:2** · `crianca-exame.webp`
+**4:3** · `crianca-exame.webp`
 
 ```
-Fotografia documental horizontal 3:2 de uma menina de cerca de seis anos
+Fotografia documental horizontal 4:3 de uma menina de cerca de seis anos
 sentada à mesa da sala de casa, sorrindo, olhando através de uma armação de
 prova de optometria colorida. Uma mão adulta, sem jaleco, segura a armação com
 delicadeza ao lado do rosto dela; a pessoa adulta não aparece. A criança está
@@ -153,10 +157,10 @@ Nada de ambiente clínico.
 
 ## 6 · O óculos pronto sendo ajustado
 
-**3:2** · `entrega-oculos.webp`
+**4:3** · `entrega-oculos.webp`
 
 ```
-Fotografia em close, horizontal 3:2, das mãos de uma profissional ajustando a
+Fotografia em close, horizontal 4:3, das mãos de uma profissional ajustando a
 haste de um óculos novo no rosto de um senhor idoso, dentro de casa. O rosto
 dele aparece parcialmente, de perfil, em foco suave; as mãos e o óculos ocupam
 o centro do quadro e estão nítidos. A profissional não aparece, só as mãos e o
@@ -188,7 +192,7 @@ Não inclua nenhum texto, letra, número, logotipo ou marca d'água na imagem.
 
 ## V1 · Hero em movimento: o foco chegando
 
-**9:16** (recorte para 4:5 no site) · `hero-exame-casa.mp4`
+**9:16** (o site recorta para 3:4) · `hero-exame-casa.mp4`
 
 O mesmo gesto do site: a imagem começa desfocada e ganha nitidez.
 

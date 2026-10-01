@@ -25,7 +25,7 @@ export function Maleta() {
         <Revelar atraso={0.1}>
           <Foto
             arquivo="maleta-armacoes.webp"
-            proporcao="3 / 2"
+            proporcao="4 / 3"
             alt="Maleta aberta sobre uma mesa de jantar de madeira, com dezenas de armações de óculos organizadas em fileiras, ao lado de uma xícara de café e da luz de uma janela."
           />
         </Revelar>
