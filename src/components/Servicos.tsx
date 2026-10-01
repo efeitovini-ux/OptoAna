@@ -23,7 +23,7 @@ function Icone({ children }: { children: ReactNode }) {
 const servicos = [
   {
     titulo: 'Exame de refração',
-    texto: 'A medição do seu grau, feita na sua casa, com o equipamento que eu levo.',
+    texto: 'A medição do seu grau, aí na sua sala.',
     icone: (
       <Icone>
         <path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z" />
@@ -33,7 +33,7 @@ const servicos = [
   },
   {
     titulo: 'Adaptação de lente de contato',
-    texto: 'Avalio, ajudo a escolher a lente e ensino a colocar, tirar e guardar.',
+    texto: 'Escolha da lente e orientação de uso.',
     icone: (
       <Icone>
         <path d="M4 13a8 8 0 0 0 16 0" />
@@ -44,7 +44,7 @@ const servicos = [
   },
   {
     titulo: 'Óculos e armações',
-    texto: 'Você escolhe a armação em casa. Eu volto para entregar o óculos pronto.',
+    texto: 'Prova em casa, entrega pronta.',
     icone: (
       <Icone>
         <circle cx="6.5" cy="14" r="3.5" />
@@ -56,7 +56,7 @@ const servicos = [
   },
   {
     titulo: 'Treinamento visual',
-    texto: 'Exercícios orientados para mais conforto visual na leitura, nas telas e no dia a dia.',
+    texto: 'Exercícios para mais conforto visual.',
     icone: (
       <Icone>
         <circle cx="12" cy="12" r="8.5" />
@@ -76,13 +76,13 @@ export function Servicos() {
           <TituloSecao id="titulo-servicos" sobretitulo="O que a Ana Cláudia faz" titulo="Tudo acontece na sua casa." />
         </Revelar>
 
-        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+        <ul className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 lg:gap-6">
           {servicos.map((servico, i) => (
             <li key={servico.titulo}>
               <Revelar atraso={i * 0.05} className="h-full">
-                <article className="h-full rounded-2xl bg-white p-6 shadow-[0_1px_3px_rgba(24,48,79,0.08)]">
+                <article className="h-full rounded-2xl bg-white p-4 sm:p-6 shadow-[0_1px_3px_rgba(24,48,79,0.08)]">
                   {servico.icone}
-                  <h3 className="mt-4 text-xl font-semibold text-navy">{servico.titulo}</h3>
+                  <h3 className="mt-3 text-lg font-semibold leading-snug text-navy sm:text-xl">{servico.titulo}</h3>
                   <p className="mt-2 text-base text-navy/90">{servico.texto}</p>
                 </article>
               </Revelar>
@@ -92,8 +92,7 @@ export function Servicos() {
 
         <Revelar>
           <p className="mt-10 max-w-2xl text-base text-apoio">
-            Se no exame eu perceber algo que precisa de um olhar médico, faço o encaminhamento ao
-            oftalmologista.
+            Se precisar de um olhar médico, faço o encaminhamento ao oftalmologista.
           </p>
         </Revelar>
       </div>

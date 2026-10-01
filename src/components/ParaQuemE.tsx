@@ -2,72 +2,72 @@ import { Foto } from './ui/Foto'
 import { Revelar } from './ui/Revelar'
 import { TituloSecao } from './ui/TituloSecao'
 
-const cartoes = [
+const pessoas = [
   {
-    titulo: 'Quem não dirige mais',
-    texto:
-      'Depender de alguém para levar, esperar na loja, voltar cansado. Em casa, nada disso acontece.',
+    foto: 'para-mae.webp',
+    alt: 'Senhora de cabelos grisalhos sorrindo na poltrona de casa, com uma armação de prova no rosto.',
+    titulo: 'Para a sua mãe',
+    texto: 'Sem depender de carona.',
   },
   {
-    titulo: 'Criança pequena',
-    texto:
-      'Em lugar estranho, ela chora e o exame não sai. No sofá de casa, ela fica à vontade e colabora.',
+    foto: 'para-filho.webp',
+    alt: 'Menina sorrindo à mesa da sala, olhando através de uma armação de prova.',
+    titulo: 'Para o seu filho',
+    texto: 'Em casa, ele fica à vontade.',
   },
   {
-    titulo: 'Quem tem mobilidade reduzida',
-    texto:
-      'Escada, calçada, transporte: tudo vira obstáculo. Aqui ninguém precisa sair de casa.',
-  },
-  {
-    titulo: 'Quem trabalha o dia todo',
-    texto:
-      'A ótica fecha antes de você sair do trabalho. O atendimento é marcado no dia que combinarmos.',
-  },
-  {
-    titulo: 'A família inteira',
-    texto: 'Uma visita só. Todo mundo da casa faz o exame no mesmo dia.',
+    foto: 'para-pai.webp',
+    alt: 'Mãos ajustando a haste de um óculos novo no rosto de um senhor, dentro de casa.',
+    titulo: 'Para o seu pai',
+    texto: 'O óculos chega pronto e ajustado.',
   },
 ]
 
-/** Seção 2. Cada cartão fala de uma dificuldade real de ir até a ótica. */
+const outros = ['Mobilidade reduzida', 'Quem trabalha o dia todo', 'A família inteira, numa visita só']
+
+/** Seção 2. Para quem o atendimento em casa resolve a vida. */
 export function ParaQuemE() {
   return (
     <section aria-labelledby="titulo-para-quem" className="bg-white py-16 md:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div className="mb-10 grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:gap-12">
-          <Revelar>
-            <TituloSecao
-              id="titulo-para-quem"
-              sobretitulo="Para quem é"
-              titulo="Sua mãe não precisa mais depender de alguém para ir até a ótica."
-            />
-            <p className="-mt-2 max-w-2xl text-lg text-apoio">
-              Muitas vezes quem marca não é quem vai usar o óculos. É o filho, a filha, quem cuida.
-              Se é o seu caso, este atendimento foi pensado para você também.
-            </p>
-          </Revelar>
-          <Revelar atraso={0.1}>
-            <Foto
-              arquivo="crianca-exame.webp"
-              proporcao="4 / 3"
-              alt="Menina sorrindo à mesa da sala de casa, olhando através de uma armação de prova segurada com cuidado por uma mão adulta."
-            />
-          </Revelar>
-        </div>
+        <Revelar>
+          <TituloSecao
+            id="titulo-para-quem"
+            sobretitulo="Para quem é"
+            titulo="Sua mãe não precisa mais depender de alguém para ir até a ótica."
+          />
+        </Revelar>
 
-        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-6 lg:gap-6">
-          {cartoes.map((cartao, i) => (
-            <li key={cartao.titulo} className={i < 3 ? 'lg:col-span-2' : 'lg:col-span-3'}>
-              <Revelar atraso={i * 0.05} className="h-full">
-                <article className="h-full rounded-2xl border border-claro/60 bg-nevoa p-6">
-                  <span aria-hidden="true" className="block h-1 w-8 rounded-full bg-teal" />
-                  <h3 className="mt-4 text-xl font-semibold text-navy">{cartao.titulo}</h3>
-                  <p className="mt-2 text-base text-navy/90">{cartao.texto}</p>
-                </article>
+        <ul className="grid gap-5 sm:grid-cols-3 sm:gap-6">
+          {pessoas.map((p, i) => (
+            <li key={p.titulo}>
+              <Revelar atraso={i * 0.08}>
+                <figure className="flex items-center gap-4 sm:block">
+                  <Foto arquivo={p.foto} alt={p.alt} proporcao="3 / 4" className="w-[40%] shrink-0 sm:w-auto" />
+                  <figcaption className="sm:mt-4">
+                    <span className="block text-xl font-semibold text-navy">{p.titulo}</span>
+                    <span className="mt-1 block text-base text-apoio">{p.texto}</span>
+                  </figcaption>
+                </figure>
               </Revelar>
             </li>
           ))}
         </ul>
+
+        <Revelar>
+          <p className="sr-only">Também para:</p>
+          <ul className="mt-10 flex flex-wrap gap-3">
+            {outros.map((o) => (
+              <li
+                key={o}
+                className="inline-flex min-h-[44px] items-center gap-2 rounded-full border border-claro bg-nevoa px-4 py-2 text-base font-medium text-navy"
+              >
+                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-teal" />
+                {o}
+              </li>
+            ))}
+          </ul>
+        </Revelar>
       </div>
     </section>
   )

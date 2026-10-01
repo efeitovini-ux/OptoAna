@@ -22,14 +22,10 @@ export function QuemE() {
           <p className="-mt-4 mb-6 font-display text-4xl font-semibold text-navy">Ana Cláudia</p>
           <div className="space-y-4 text-lg text-navy/90">
             <p>Sou optometrista e atendo na casa das pessoas.</p>
-            <p>
-              Levo o equipamento, faço o exame de refração ali mesmo, no sofá da sala, e volto
-              depois para entregar o óculos e ajustar no rosto.
-            </p>
+            <p>Levo o equipamento, faço o exame com calma e volto para entregar o óculos.</p>
             <p>
               Trabalho com optometria há <Texto valor={conteudo.anosExperiencia} /> anos.
             </p>
-            <p>Gosto de fazer tudo sem pressa, explicando cada passo para quem está ali.</p>
           </div>
         </Revelar>
       </div>

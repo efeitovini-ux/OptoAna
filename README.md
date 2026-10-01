@@ -40,14 +40,15 @@ Use somente os arquivos oficiais, nunca uma recriação.
 | Arquivo | Proporção | Onde | Situação |
 |---|---|---|---|
 | `hero-exame-casa.webp` | 3:4 | Hero | ok |
-| `crianca-exame.webp` | 4:3 | Para quem é | ok |
+| `para-mae.webp`, `para-filho.webp`, `para-pai.webp` | 3:4 | Para quem é | ok |
 | `maleta-armacoes.webp` | 4:3 | A maleta (capa do vídeo) | ok |
+| `escolha-espelho-poster.webp` | 2:3 | A maleta (capa do vídeo) | ok |
 | `entrega-oculos-poster.webp` | 16:9 | Como funciona (capa do vídeo) | ok |
 | `og-ana-claudia.jpg` | 1200×630, JPG | Card do link no WhatsApp | ok |
 | `ana-claudia-retrato.webp` | 3:4 | Quem é a Ana Cláudia (foto real, não gerada) | **falta** |
 
 **Vídeos** (`public/video/`, sem som, cada um em `.webm` e `.mp4`):
-`maleta-armacoes` (A maleta) e `entrega-oculos` (Como funciona). Tocam só
+`maleta-armacoes` e `escolha-espelho` (A maleta) e `entrega-oculos` (Como funciona). Tocam só
 enquanto estão na tela, têm botão de pausa e viram foto para quem pediu menos
 movimento.
 
