@@ -3,8 +3,13 @@
 Prompts prontos para gerar as fotos (Gemini) e os vídeos (Google Flow · Veo 3)
 do site. **Um prompt por asset.** Copie o bloco inteiro e cole, sem editar.
 
-**Paleta do projeto:** navy `#18304F` · azul `#1B87AB` · teal `#4E9898` ·
-azul claro `#A8C8D8` · névoa `#F2F6F8`
+**Paleta do projeto** (só para referência sua, **não cole os códigos no
+prompt**): navy `#18304F` · azul `#1B87AB` · teal `#4E9898` · azul claro
+`#A8C8D8` · névoa `#F2F6F8`
+
+> Os geradores leem código de cor como algo para desenhar e colocam uma
+> cartela de cores com texto na imagem. Por isso os prompts descrevem as cores
+> em palavras.
 
 ---
 
@@ -61,12 +66,14 @@ abajur, uma planta, cortina leve. Luz natural suave entrando por uma janela à
 esquerda, sem sombras duras. Foco nítido no rosto da senhora e na armação de
 prova; fundo da sala levemente desfocado.
 
-Paleta clara e arejada: branco, madeira clara e azuis suaves, próxima de
-#F2F6F8 e #A8C8D8. Estilo de fotografia documental, lente 50mm, f/2, cores
+Paleta clara e arejada: branco, madeira clara e azuis suaves, tudo bem claro,
+com azul acinzentado bem suave nos detalhes. Estilo de fotografia documental, lente 50mm, f/2, cores
 naturais, pele real com textura. Deixe espaço livre na parte de cima do
 quadro.
 
 Não inclua nenhum texto, letra, número, logotipo ou marca d'água na imagem.
+Não mostre cartela de cores, amostras de cor ou qualquer elemento gráfico:
+só a fotografia.
 Nada de ambiente clínico, jaleco ou equipamento grande de mesa.
 ```
 
@@ -86,12 +93,14 @@ de café com pires e um pequeno espelho de mesa redondo. Luz natural suave de
 uma janela à esquerda, criando reflexos delicados nas lentes de demonstração.
 
 Composição organizada e calma, como um estojo de precisão aberto. Paleta clara
-com madeira, branco e azuis suaves, próxima de #F2F6F8 e #A8C8D8. Lente 35mm,
+com madeira, branco e azuis suaves, tudo bem claro,
+com azul acinzentado bem suave nos detalhes. Lente 35mm,
 f/5.6, tudo em foco nas armações. Fotografia realista, sem aparência de
 produto de catálogo.
 
 Não inclua nenhum texto, letra, número, logotipo ou marca em nenhuma armação,
-na maleta ou no fundo.
+na maleta ou no fundo. Não mostre cartela de cores, amostras de cor ou qualquer
+elemento gráfico: só a fotografia.
 ```
 
 ## 3 · Card de link do WhatsApp (Open Graph)
@@ -108,10 +117,13 @@ do quadro. Os dois terços da esquerda são um fundo claro, liso e desfocado (um
 parede clara com luz de janela), sem nenhum objeto, como espaço vazio.
 
 Luz natural suave vindo da direita. Paleta clara e arejada em branco, madeira e
-azul muito suave, próxima de #F2F6F8 e #A8C8D8. Lente 35mm, f/2.8. Fotografia
+azul muito suave, tudo bem claro,
+com azul acinzentado bem suave nos detalhes. Lente 35mm, f/2.8. Fotografia
 realista e calma.
 
 Não inclua nenhum texto, letra, número, logotipo ou marca d'água na imagem.
+Não mostre cartela de cores, amostras de cor ou qualquer elemento gráfico:
+só a fotografia.
 ```
 
 Depois de gerar, recorte em 1200 × 630 mantendo a maleta à direita.
@@ -148,10 +160,13 @@ confortável, no próprio ambiente.
 
 Ao fundo, desfocada, a sala de uma casa comum com janela iluminada e alguns
 brinquedos. Luz natural quente e suave. Paleta clara e alegre: branco, madeira
-e azul suave, próxima de #F2F6F8 e #A8C8D8. Lente 50mm, f/2, foco nos olhos da
+e azul suave, tudo bem claro,
+com azul acinzentado bem suave nos detalhes. Lente 50mm, f/2, foco nos olhos da
 criança.
 
 Não inclua nenhum texto, letra, número, logotipo ou marca d'água na imagem.
+Não mostre cartela de cores, amostras de cor ou qualquer elemento gráfico:
+só a fotografia.
 Nada de ambiente clínico.
 ```
 
@@ -168,9 +183,12 @@ punho de uma blusa comum, sem jaleco.
 
 Ao fundo, desfocada, a sala de uma casa com luz de janela. Gesto delicado e
 cuidadoso. Luz natural quente e suave. Paleta clara: tons de pele, branco e
-azul suave, próxima de #F2F6F8 e #A8C8D8. Lente 85mm, f/2.
+azul suave, tudo bem claro,
+com azul acinzentado bem suave nos detalhes. Lente 85mm, f/2.
 
 Não inclua nenhum texto, letra, número, logotipo ou marca d'água na imagem.
+Não mostre cartela de cores, amostras de cor ou qualquer elemento gráfico:
+só a fotografia.
 ```
 
 ---
@@ -212,12 +230,13 @@ relaxed smile at the end.
 
 Lighting: soft natural daylight from a window on the left, no harsh shadows.
 Background: sofa, framed picture, lamp, plant, sheer curtain, softly blurred.
-Color palette: whites, light wood and soft blues close to #F2F6F8 and #A8C8D8.
+Colors: airy and light. White walls, pale natural wood, soft misty-blue accents.
 50mm lens, shallow depth of field, natural skin texture.
 
 Audio: quiet room ambience only, no music, no speech.
 
-No text, letters, numbers, logos or watermarks anywhere. No clinical setting,
+Pure live-action footage only. No color swatches, no palette cards, no
+graphics, overlays, captions, text, letters, numbers, logos or watermarks. No clinical setting,
 no lab coat, no large tabletop medical equipment.
 ```
 
@@ -228,23 +247,27 @@ no lab coat, no large tabletop medical equipment.
 ```
 Horizontal 16:9, 8 seconds, photorealistic.
 
-Top-down view, slightly angled, of a closed frame case resting on a light wood
-dining table inside a home, next to a folded linen napkin and a cup of coffee.
-Two hands in everyday clothing sleeves (no lab coat) slowly open the case,
-revealing around twenty eyeglass frames neatly arranged in rows: tortoiseshell
-acetate, black acetate, gold and silver metal. No brand markings on any frame.
+Top-down view, slightly angled, of a closed optician's frame display case on a
+light wood dining table inside a home, next to a folded linen napkin and a cup
+of coffee. The case is slim and flat, covered in dark brown leather, like a
+large jewelry case. It is not a metal briefcase or a tool case.
+Two hands in everyday clothing sleeves (no lab coat) slowly lift the lid,
+revealing a light fabric-lined interior with around twenty eyeglass frames
+neatly arranged in rows: tortoiseshell acetate, black acetate, gold and silver
+metal. No brand markings on any frame.
 
 Camera: very slow push-in from above, smooth and steady. After the case opens,
 the hands withdraw and the shot rests on the organised frames while window
 light catches gentle reflections on the demo lenses.
 
 Lighting: soft natural daylight from a window on the left.
-Color palette: light wood, white and soft blues close to #F2F6F8 and #A8C8D8.
+Colors: airy and light. White walls, pale natural wood, soft misty-blue accents.
 35mm lens, everything in focus on the frames.
 
 Audio: soft click of the case latch and quiet room ambience, no music, no speech.
 
-No text, letters, numbers, logos or watermarks anywhere.
+Pure live-action footage only. No color swatches, no palette cards, no
+graphics, overlays, captions, text, letters, numbers, logos or watermarks.
 ```
 
 ## V3 · Escolhendo a armação diante do espelho
@@ -254,25 +277,33 @@ No text, letters, numbers, logos or watermarks anywhere.
 A frase da maleta em imagem: "na sua sala, com a sua luz, diante do seu espelho".
 
 ```
-Vertical 9:16, 8 seconds, photorealistic documentary style.
+Vertical 9:16, 8 seconds, photorealistic live-action documentary footage.
 
-A woman in her late 40s, natural look, casual home clothes, stands in her own
-living room trying on a pair of tortoiseshell eyeglass frames in front of a
-round wall mirror. We see her reflection in the mirror, smiling slightly as she
-turns her head left and right to judge the frames. On a sideboard below the
-mirror sits an open case of eyeglass frames, softly out of focus.
+Subject: a Brazilian woman in her late 40s, shoulder-length dark hair, natural
+look, light linen blouse. She is wearing tortoiseshell eyeglass frames and is
+the only focus of the shot.
 
-Camera: slow, gentle dolly-in toward the mirror, steady, no shake.
+Action: she stands in her living room facing a round wall mirror and tries on
+the glasses. Over the 8 seconds she turns her head slowly to the left, then to
+the right, studying the frames in the mirror, and ends with a small, satisfied
+smile. We see her face both over her shoulder and in the mirror reflection.
+
+Setting: an ordinary, lived-in Brazilian home. Round mirror on a white wall,
+a low wooden sideboard below it with a small plant and a few eyeglass frames
+resting on a folded cloth. Light curtains, books, a sofa softly blurred behind.
+
+Camera: medium shot from slightly behind her shoulder, slow gentle push-in
+toward the mirror, steady, no shake.
 
 Lighting: warm, soft late-afternoon daylight from a side window.
-Background: lived-in Brazilian home, plants, books, light curtains.
-Color palette: whites, light wood and soft blues close to #F2F6F8 and #A8C8D8.
+Colors: airy and light. White walls, pale natural wood, soft misty-blue accents.
 50mm lens, shallow depth of field, natural skin texture.
 
 Audio: quiet room ambience only, no music, no speech.
 
-No text, letters, numbers, logos or watermarks anywhere. No shop counter, no
-store setting.
+Pure live-action footage only. No color swatches, no palette cards, no
+graphics, overlays, captions, text, letters, numbers, logos or watermarks.
+No shop counter, no store setting, no metal case.
 ```
 
 ## V4 · A entrega do óculos pronto
@@ -293,12 +324,13 @@ Camera: locked-off, slight slow push-in, very steady.
 
 Lighting: warm, soft natural window light.
 Background: softly blurred living room with a window.
-Color palette: skin tones, white and soft blues close to #F2F6F8 and #A8C8D8.
+Colors: airy and light. White walls, pale natural wood, soft misty-blue accents.
 85mm lens, shallow depth of field.
 
 Audio: quiet room ambience only, no music, no speech.
 
-No text, letters, numbers, logos or watermarks anywhere. No clinical setting.
+Pure live-action footage only. No color swatches, no palette cards, no
+graphics, overlays, captions, text, letters, numbers, logos or watermarks. No clinical setting.
 ```
 
 ---
