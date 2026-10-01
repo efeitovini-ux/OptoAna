@@ -39,6 +39,118 @@ sempre o cliente.
 
 ---
 
+# LOGO E FAVICON · Gemini (limpeza da logo atual)
+
+> **Não é redesenho.** Estes prompts só limpam a logo que já existe: bordas
+> nítidas, alta resolução e enquadramento certo. O desenho, as letras, as
+> proporções e as cores ficam iguais.
+>
+> **Como usar:** abra uma conversa nova no Gemini para cada prompt, **anexe a
+> imagem atual da logo**, escolha a proporção indicada e não escolha nenhum
+> estilo. Compare o resultado com o original lado a lado. Se mudou qualquer
+> letra do "Ana Claudia" ou qualquer traço do símbolo, descarte e gere de novo.
+
+## L1 · Logo horizontal
+
+**16:9** · vira `opto-anaclaudia-logo.svg`
+
+```
+Use a imagem anexada como referência exata. Recrie esta mesma logo, idêntica,
+apenas com acabamento limpo e profissional, em alta resolução.
+
+Não altere nada no desenho: mantenha exatamente o mesmo símbolo circular (o
+olho com a pupila, o arco verde-azulado por cima, o arco dourado fino por
+dentro, as letras A e C entrelaçadas na parte de baixo e a curva da direita),
+a mesma assinatura cursiva "Ana Claudia", a mesma palavra "OPTOMETRISTA" em
+letras de forma, as mesmas posições, proporções, espessuras e espaçamentos, e
+exatamente as mesmas cores da imagem anexada.
+
+Ajuste somente o acabamento: bordas nítidas e lisas, sem serrilhado, sem
+borrão e sem ruído; curvas suaves e contínuas; cores chapadas e uniformes,
+sem degradê, sombra, brilho ou textura. Centralize a logo com uma margem
+igual em volta, ocupando quase toda a largura do quadro.
+
+Fundo branco puro e liso. Não acrescente nenhum elemento, moldura, texto,
+cartela de cores ou marca d'água.
+```
+
+## L2 · Logo branca (para o rodapé, sobre fundo escuro)
+
+**16:9** · vira `opto-anaclaudia-logo-branco.svg`
+
+```
+Use a imagem anexada como referência exata. Recrie esta mesma logo, idêntica,
+em versão monocromática branca sobre fundo azul-marinho escuro e liso.
+
+Não altere nada no desenho: mesmo símbolo circular com o olho, os dois arcos,
+as letras A e C e a curva da direita; mesma assinatura cursiva "Ana Claudia";
+mesma palavra "OPTOMETRISTA"; mesmas posições, proporções, espessuras e
+espaçamentos. A única mudança é a cor: todos os elementos em branco puro,
+chapado, sem degradê, sombra ou brilho.
+
+Bordas nítidas e lisas, sem serrilhado, em alta resolução. Centralize a logo
+com margem igual em volta. Não acrescente nenhum elemento, moldura, texto,
+cartela de cores ou marca d'água.
+```
+
+## L3 · Símbolo sozinho
+
+**1:1** · vira `opto-anaclaudia-simbolo.svg`
+
+```
+Use a imagem anexada como referência exata. Recrie somente o símbolo circular
+desta logo, sem a assinatura "Ana Claudia" e sem a palavra "OPTOMETRISTA".
+
+O símbolo deve ficar idêntico ao original: o olho com a pupila, o arco
+verde-azulado por cima, o arco dourado fino por dentro, as letras A e C
+entrelaçadas na parte de baixo e a curva da direita, com as mesmas
+proporções, espessuras e exatamente as mesmas cores da imagem anexada.
+
+Ajuste somente o acabamento: bordas nítidas e lisas, sem serrilhado, curvas
+contínuas, cores chapadas, sem degradê, sombra ou brilho, em alta resolução.
+Centralize o símbolo no quadro quadrado, ocupando cerca de 80% da largura.
+
+Fundo branco puro e liso. Não acrescente nenhum elemento, moldura, texto,
+cartela de cores ou marca d'água.
+```
+
+## L4 · Favicon
+
+**1:1** · vira `favicon.svg`
+
+```
+Use a imagem anexada como referência exata. Recrie somente o símbolo circular
+desta logo, para ser usado como ícone pequeno de aba do navegador.
+
+Mantenha o mesmo desenho e exatamente as mesmas cores do original: o olho com
+a pupila, o arco verde-azulado por cima, o arco dourado fino por dentro, as
+letras A e C na parte de baixo e a curva da direita. Não acrescente nem
+remova nenhum elemento.
+
+Centralize o símbolo ocupando quase todo o quadro quadrado, com uma margem
+mínima e igual nos quatro lados. Bordas muito nítidas, traços limpos e
+contínuos, cores chapadas, sem degradê, sombra, brilho ou textura, em alta
+resolução, para continuar legível bem pequeno.
+
+Fundo branco puro e liso. Não acrescente nenhum texto, moldura, cartela de
+cores ou marca d'água.
+```
+
+## Depois de gerar: de PNG para SVG
+
+O Gemini entrega PNG, e o site espera **SVG**:
+
+1. **Tire o fundo** (L1, L3 e L4): Canva "Remover fundo" ou remove.bg. A L2
+   pode ficar com o fundo azul-marinho, ou sem fundo.
+2. **Converta para SVG**: vectorizer.ai (envie o PNG e baixe o SVG).
+3. **Salve em `public/brand/`** com o nome exato indicado. O placeholder do
+   site some sozinho.
+
+Se preferir pular a conversão, me mande os PNGs que eu ajusto o site para
+usá-los.
+
+---
+
 # FOTOS · Gemini
 
 > **No Gemini:** antes de enviar, abra **Proporção** e escolha a indicada em
