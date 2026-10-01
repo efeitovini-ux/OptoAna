@@ -25,26 +25,31 @@ amarelo. Não publique com nenhum amarelo na tela.
 - Anos de experiência
 - As respostas das seis perguntas do acordeão
 
-## Arquivos que faltam
+## Arquivos de mídia
 
-Basta salvar o arquivo com o nome exato na pasta indicada. O placeholder some
-sozinho.
+O site mostra uma caixa com o nome do arquivo sempre que algum estiver
+faltando. Basta salvar o arquivo com o nome exato.
 
-**Logo** (`public/brand/`). Use somente os arquivos oficiais, nunca uma recriação:
-
-- `opto-anaclaudia-logo.svg`: topo da página
-- `opto-anaclaudia-logo-branco.svg`: rodapé, sobre fundo navy
-- `opto-anaclaudia-simbolo.svg`: reservado
-- `favicon.svg`: ícone da aba
+**Logo** (`public/brand/`, PNG com fundo transparente): `opto-anaclaudia-logo.png`
+(topo), `opto-anaclaudia-logo-branco.png` (rodapé), `opto-anaclaudia-simbolo.png`,
+`favicon-32.png`, `apple-touch-icon.png`, `icone-512.png` e `public/favicon.ico`.
+Use somente os arquivos oficiais, nunca uma recriação.
 
 **Fotos** (`public/img/`, WebP qualidade 80):
 
-| Arquivo | Proporção | Onde |
-|---|---|---|
-| `hero-exame-casa.webp` | 3:4 | Hero |
-| `maleta-armacoes.webp` | 4:3 | A maleta |
-| `ana-claudia-retrato.webp` | 3:4 | Quem é a Ana Cláudia (foto real, não gerada) |
-| `og-ana-claudia.jpg` | 1200×630, JPG | Card do link no WhatsApp |
+| Arquivo | Proporção | Onde | Situação |
+|---|---|---|---|
+| `hero-exame-casa.webp` | 3:4 | Hero | ok |
+| `crianca-exame.webp` | 4:3 | Para quem é | ok |
+| `maleta-armacoes.webp` | 4:3 | A maleta (capa do vídeo) | ok |
+| `entrega-oculos-poster.webp` | 16:9 | Como funciona (capa do vídeo) | ok |
+| `og-ana-claudia.jpg` | 1200×630, JPG | Card do link no WhatsApp | ok |
+| `ana-claudia-retrato.webp` | 3:4 | Quem é a Ana Cláudia (foto real, não gerada) | **falta** |
+
+**Vídeos** (`public/video/`, sem som, cada um em `.webm` e `.mp4`):
+`maleta-armacoes` (A maleta) e `entrega-oculos` (Como funciona). Tocam só
+enquanto estão na tela, têm botão de pausa e viram foto para quem pediu menos
+movimento.
 
 Os prompts de geração estão em `PROMPTS-MIDIA-ANA-CLAUDIA.md`.
 
