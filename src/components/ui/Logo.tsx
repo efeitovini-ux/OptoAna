@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 type Props = {
-  arquivo: 'opto-anaclaudia-logo.svg' | 'opto-anaclaudia-logo-branco.svg' | 'opto-anaclaudia-simbolo.svg'
+  arquivo: 'opto-anaclaudia-logo.png' | 'opto-anaclaudia-logo-branco.png' | 'opto-anaclaudia-simbolo.png'
   className?: string
   escuro?: boolean
 }
@@ -34,7 +34,7 @@ export function Logo({ arquivo, className = '', escuro }: Props) {
       src={`/brand/${arquivo}`}
       alt="Opto.AnaClaudia"
       onError={() => setFaltando(true)}
-      className={`h-14 w-auto ${className}`}
+      className={`h-16 w-auto md:h-20 ${className}`}
     />
   )
 }

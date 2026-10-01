@@ -13,7 +13,7 @@ export function Rodape() {
     <footer className="bg-navy pb-28 pt-14 text-white">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-[1fr_auto] md:items-start">
-          <Logo arquivo="opto-anaclaudia-logo-branco.svg" escuro />
+          <Logo arquivo="opto-anaclaudia-logo-branco.png" escuro />
 
           <ul className="space-y-1 text-base">
             <li>

@@ -33,7 +33,7 @@ export function Hero() {
     <section aria-labelledby="titulo-hero" className="bg-nevoa">
       <div className="mx-auto max-w-6xl px-4 pb-14 pt-5 sm:px-6 md:pb-20 lg:grid lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:gap-12 lg:px-8 lg:pt-8">
         <div className="lg:col-span-2">
-          <Logo arquivo="opto-anaclaudia-logo.svg" />
+          <Logo arquivo="opto-anaclaudia-logo.png" />
         </div>
 
         <div className="mt-10 text-center lg:mt-6">
