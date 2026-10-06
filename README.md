@@ -19,7 +19,6 @@ Enquanto um campo estiver como `[PREENCHER]`, ele aparece no site com fundo
 amarelo. Não publique com nenhum amarelo na tela.
 
 - Domínio (usado no Open Graph e no endereço canônico)
-- As respostas de cinco perguntas do acordeão (a da região já está preenchida)
 
 ## Arquivos de mídia
 

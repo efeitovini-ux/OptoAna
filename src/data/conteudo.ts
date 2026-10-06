@@ -43,17 +43,31 @@ export const conteudo = {
   /** Domínio do site, sem "https://". Ex.: "optoanaclaudia.com.br". */
   dominio: PREENCHER,
 
-  /** Respostas do acordeão de dúvidas. As perguntas vêm do briefing. */
+  /** Perguntas e respostas do acordeão de dúvidas. */
   duvidas: [
-    { pergunta: 'Como funciona o atendimento em casa?', resposta: PREENCHER },
-    { pergunta: 'Quanto tempo dura o exame?', resposta: PREENCHER },
-    { pergunta: 'Preciso ter algum equipamento em casa?', resposta: PREENCHER },
+    {
+      pergunta: 'Como funciona o atendimento em casa?',
+      resposta:
+        'Eu chego na sua casa com todo o equipamento. Você fica sentado no sofá, olhando para uma tabela de letras, e vai me dizendo o que enxerga: qual letra aparece, se está nítida ou embaçada. Assim eu faço a medição do seu grau, com calma e sem sair de casa.',
+    },
+    { pergunta: 'Quanto tempo dura o exame?', resposta: 'No máximo 30 minutos.' },
+    {
+      pergunta: 'Preciso ter algum equipamento em casa?',
+      resposta: 'Não. Eu levo tudo. Você só precisa de um lugar para sentar.',
+    },
     {
       pergunta: 'Vocês atendem qual região?',
       resposta: 'Atendo em Suzano, Poá, Mogi das Cruzes e em toda a região do Alto Tietê.',
     },
-    { pergunta: 'Em quanto tempo o óculos fica pronto?', resposta: PREENCHER },
-    { pergunta: 'Atende criança?', resposta: PREENCHER },
+    {
+      pergunta: 'Em quanto tempo o óculos fica pronto?',
+      resposta:
+        'Varia de caso para caso, mas fica pronto em cerca de 2 semanas. Quando estiver pronto, eu levo até a sua casa.',
+    },
+    {
+      pergunta: 'Atende criança?',
+      resposta: 'Sim. Em casa, a criança fica à vontade, no ambiente dela.',
+    },
   ],
 }
 
