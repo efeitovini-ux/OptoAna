@@ -18,11 +18,8 @@ Tudo que a cliente ainda precisa informar está em **`src/data/conteudo.ts`**.
 Enquanto um campo estiver como `[PREENCHER]`, ele aparece no site com fundo
 amarelo. Não publique com nenhum amarelo na tela.
 
-- Região atendida (também vai para o JSON-LD do Google)
-- Horário de atendimento
-- E-mail
 - Domínio (usado no Open Graph e no endereço canônico)
-- As respostas das seis perguntas do acordeão
+- As respostas de cinco perguntas do acordeão (a da região já está preenchida)
 
 ## Arquivos de mídia
 

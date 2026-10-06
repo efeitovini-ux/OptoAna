@@ -34,14 +34,11 @@ export const conteudo = {
 
   // ---- Campos que a cliente ainda precisa informar ----
 
-  /** Bairros ou cidades onde ela atende. Ex.: "Zona Sul de São Paulo". */
-  regiaoAtendida: PREENCHER,
-
-  /** Dias e horários de atendimento. */
-  horario: PREENCHER,
+  /** Cidades onde ela atende. */
+  regiaoAtendida: 'Suzano, Poá, Mogi das Cruzes e toda a região do Alto Tietê',
 
   /** E-mail de contato. */
-  email: PREENCHER,
+  email: 'anacns_2008@yahoo.com.br',
 
   /** Domínio do site, sem "https://". Ex.: "optoanaclaudia.com.br". */
   dominio: PREENCHER,
@@ -51,7 +48,10 @@ export const conteudo = {
     { pergunta: 'Como funciona o atendimento em casa?', resposta: PREENCHER },
     { pergunta: 'Quanto tempo dura o exame?', resposta: PREENCHER },
     { pergunta: 'Preciso ter algum equipamento em casa?', resposta: PREENCHER },
-    { pergunta: 'Vocês atendem qual região?', resposta: PREENCHER },
+    {
+      pergunta: 'Vocês atendem qual região?',
+      resposta: 'Atendo em Suzano, Poá, Mogi das Cruzes e em toda a região do Alto Tietê.',
+    },
     { pergunta: 'Em quanto tempo o óculos fica pronto?', resposta: PREENCHER },
     { pergunta: 'Atende criança?', resposta: PREENCHER },
   ],

@@ -18,6 +18,7 @@ function seoDoConteudo(): Plugin {
     description:
       'Optometrista a domicílio. Exame de refração, lentes de contato, óculos e treinamento visual, na sua casa.',
     telephone: conteudo.whatsapp.telefoneInternacional,
+    email: conteudo.email,
     areaServed: conteudo.regiaoAtendida,
     url: urlSite,
     image: imagemOg,

@@ -4,7 +4,7 @@ import { Revelar } from './ui/Revelar'
 import { Texto } from './ui/Texto'
 import { TituloSecao } from './ui/TituloSecao'
 
-/** Seção 8. WhatsApp em destaque, região atendida e horário. */
+/** Seção 8. WhatsApp em destaque e região atendida. */
 export function Contato() {
   return (
     <section aria-labelledby="titulo-contato" className="bg-white py-16 md:py-24">
@@ -35,20 +35,12 @@ export function Contato() {
               </a>
             </p>
 
-            <dl className="mx-auto mt-10 grid max-w-2xl gap-6 text-left sm:grid-cols-2">
-              <div className="rounded-xl bg-white p-5">
-                <dt className="text-base font-semibold uppercase tracking-[0.12em] text-marca-texto">Região atendida</dt>
-                <dd className="mt-2 text-lg text-navy">
-                  <Texto valor={conteudo.regiaoAtendida} />
-                </dd>
-              </div>
-              <div className="rounded-xl bg-white p-5">
-                <dt className="text-base font-semibold uppercase tracking-[0.12em] text-marca-texto">Horário</dt>
-                <dd className="mt-2 text-lg text-navy">
-                  <Texto valor={conteudo.horario} />
-                </dd>
-              </div>
-            </dl>
+            <div className="mx-auto mt-10 max-w-xl rounded-xl bg-white p-5">
+              <p className="text-base font-semibold uppercase tracking-[0.12em] text-marca-texto">Região atendida</p>
+              <p className="mt-2 text-lg text-navy">
+                <Texto valor={conteudo.regiaoAtendida} />
+              </p>
+            </div>
           </div>
         </Revelar>
       </div>
