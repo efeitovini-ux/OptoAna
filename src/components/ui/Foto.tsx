@@ -9,18 +9,20 @@ type Props = {
   className?: string
   imgClassName?: string
   prioridade?: boolean
+  /** Sem a caixa cinza atrás (para foto recortada, com fundo transparente). */
+  semFundo?: boolean
 }
 
 /**
  * Foto do site. Enquanto o arquivo não existir em public/img/, mostra uma
  * caixa cinza na proporção certa com o nome do arquivo que falta.
  */
-export function Foto({ arquivo, alt, proporcao, className = '', imgClassName = '', prioridade }: Props) {
+export function Foto({ arquivo, alt, proporcao, className = '', imgClassName = '', prioridade, semFundo }: Props) {
   const [faltando, setFaltando] = useState(false)
 
   return (
     <div
-      className={`relative overflow-hidden rounded-2xl bg-[#e3e8ec] ${className}`}
+      className={`relative overflow-hidden rounded-2xl ${semFundo ? '' : 'bg-[#e3e8ec]'} ${className}`}
       style={{ aspectRatio: proporcao }}
     >
       {faltando ? (

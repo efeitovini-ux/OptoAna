@@ -22,7 +22,6 @@ amarelo. Não publique com nenhum amarelo na tela.
 - Horário de atendimento
 - E-mail
 - Domínio (usado no Open Graph e no endereço canônico)
-- Anos de experiência
 - As respostas das seis perguntas do acordeão
 
 ## Arquivos de mídia
@@ -45,7 +44,7 @@ Use somente os arquivos oficiais, nunca uma recriação.
 | `escolha-espelho-poster.webp` | 2:3 | A maleta (capa do vídeo) | ok |
 | `entrega-oculos-poster.webp` | 16:9 | Como funciona (capa do vídeo) | ok |
 | `og-ana-claudia.jpg` | 1200×630, JPG | Card do link no WhatsApp | ok |
-| `ana-claudia-retrato.webp` | 3:4 | Quem é a Ana Cláudia (foto real, não gerada) | **falta** |
+| `ana-claudia-retrato.webp` | 3:4, fundo transparente | Quem é a Ana Cláudia (foto real, recortada) | ok |
 
 **Vídeos** (`public/video/`, sem som, cada um em `.webm` e `.mp4`):
 `maleta-armacoes` e `escolha-espelho` (A maleta) e `entrega-oculos` (Como funciona). Tocam só

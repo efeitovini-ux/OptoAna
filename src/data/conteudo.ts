@@ -15,6 +15,11 @@ export const conteudo = {
   marca: 'Opto.AnaClaudia',
   nome: 'Ana Cláudia',
 
+  experiencia: [
+    { anos: '+10', area: 'anos na optometria' },
+    { anos: '+20', area: 'anos no ramo ótico' },
+  ],
+
   whatsapp: {
     exibicao: '+55 11 99502-3658',
     telefoneInternacional: '+55-11-99502-3658',
@@ -40,9 +45,6 @@ export const conteudo = {
 
   /** Domínio do site, sem "https://". Ex.: "optoanaclaudia.com.br". */
   dominio: PREENCHER,
-
-  /** Quantos anos de experiência ela tem (só o número). */
-  anosExperiencia: PREENCHER,
 
   /** Respostas do acordeão de dúvidas. As perguntas vêm do briefing. */
   duvidas: [
